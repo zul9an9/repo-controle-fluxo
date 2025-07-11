@@ -1,1 +1,10 @@
-
+name: Workflow Evento
+on:
+  push:
+    branches: ["main","feature/*"]
+jobs:
+  teste:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Action de teste
+        run: echo "Disparou o Evento PUSH"
