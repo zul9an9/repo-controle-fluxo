@@ -6,7 +6,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Action de teste
-        run: eho "Disparou o Evento"
+        run: echo "Disparou o Evento"
       
     
       
