@@ -1,0 +1,12 @@
+name: Workflow Evento
+on:
+  workflow_dispatch:
+jobs:
+  teste:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Action de teste
+        run: eho "Disparou o Evento"
+      
+    
+      
