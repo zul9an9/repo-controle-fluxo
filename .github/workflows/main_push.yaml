@@ -9,4 +9,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Action de teste
-        run: echo "Disparou o Evento PUSH"
+        run: echo "Disparou o Evento PUSH c/ branch e tag"
